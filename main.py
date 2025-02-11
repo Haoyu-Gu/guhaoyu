@@ -26,4 +26,4 @@ if __name__ == "__main__":
     if answer:
         print(f"回答：{answer}")
     else:
-        print("未能获取回答")
+        print("未能获取回答。")
