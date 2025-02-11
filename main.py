@@ -1,11 +1,10 @@
 import requests
 
 def ask_glm(question):
-    # 替换成你的智谱 GLM API 地址
     api_url = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "103f067729ac42b2a159f9a66a281dd7.Q2IQv5mgWbidoacD"  # 替换为你的 API Key
+        "Authorization": "103f067729ac42b2a159f9a66a281dd7.Q2IQv5mgWbidoacD" 
     }
     payload = {
         "model": "chatglm_6b",
